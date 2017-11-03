@@ -1,0 +1,31 @@
+// ==========================
+//        GENERAL
+// ==========================
+
+$fontFamily1: Georgia-Italic, 'Vollkorn', Times, Times New Romans, serif;
+$fontFamily2: 'Titillium Web', Helvetica Neue, Helvetica, sans-serif;
+
+// ==========================
+//        Mixins
+// ==========================
+
+@mixin bp($point) {
+    @if $point == max-sm {
+        @media (max-width: 600px) { @content; }
+    }
+    @else if $point == min-sm {
+        @media (min-width: 600px) { @content; }
+    }
+    @else if $point == max-md {
+        @media (max-width: 991px) { @content; }
+    }
+    @else if $point == min-md {
+        @media (min-width: 991px) { @content; }
+    }
+    @else if $point == max-lg {
+        @media (max-width: 1200px) { @content; }
+    }
+    @else if $point == min-lg {
+        @media (min-width: 1200px) { @content; }
+    }
+}

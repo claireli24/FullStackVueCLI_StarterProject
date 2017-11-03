@@ -1,0 +1,53 @@
+{
+  "name": "Full-Stack-VueCLI-Starter-Project",
+  "version": "1.0.0",
+  "author": "ChuntheQhai",
+  "description": "A Vue.js, Node.js, Mongoose and Express.js Starter Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChuntheQhai/FullStackVueCLI_StarterProject.git"
+  },
+  "keywords": [
+    "Vue.js",
+    "Vuejs",
+    "Vue",
+    "Node.js",
+    "Nodejs",
+    "Node",
+    "MongoDB",
+    "Mongo",
+    "Mongojs",
+    "Express.js",
+    "Expressjs",
+    "Express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChuntheQhai/FullStackVueCLI_StarterProject/issues"
+  },
+  "homepage": "https://github.com/ChuntheQhai/FullStackVueCLI_StarterProject/issues#readme",
+  "_moduleAliases": {
+    "@root": ".",
+    "@ServerManager": "./services/ServerManagerAPI",
+    "@ServerManagerModels": "./services/ServerManagerAPI/app/models",
+    "@ServerManagerAPI": "./services/ServerManagerAPI/config/app.js",
+    "@config": "./services/ServerManagerAPI/config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "module-alias": "^2.0.1",
+    "mongoose": "^4.12.2",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0"
+  }
+}
