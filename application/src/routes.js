@@ -10,10 +10,10 @@ import Home from './components/Home.vue';
 
 /* Routes Pages Configurations */
 export const routes = [
-    {   path: '', name: 'home', 
+    {   path: '', name: 'home',
         components: {
             default: Home
         }
     },
-    { path: '*', redirect: '/' } /* Otherwise redirect to '/' */
+    // { path: '*', redirect: '/' } /* Otherwise redirect to '/' */
 ]
